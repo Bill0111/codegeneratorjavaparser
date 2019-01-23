@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.Controllers.menuController">
+      <BorderPane layoutX="61.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <ButtonBar prefHeight="49.0" prefWidth="590.0" BorderPane.alignment="CENTER">
+              <buttons>
+                <Button mnemonicParsing="false" onAction="#loadSummary" text="Summary" />
+                  <Button mnemonicParsing="false" onAction="#logout" text="Logout">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+              </buttons>
+            </ButtonBar>
+         </top>
+         <left>
+            <GridPane prefHeight="361.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="138.0" minWidth="10.0" prefWidth="116.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="119.0" minWidth="10.0" prefWidth="84.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints maxHeight="116.0" minHeight="8.0" prefHeight="64.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="232.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="282.0" minHeight="10.0" prefHeight="61.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="282.0" minHeight="10.0" prefHeight="219.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+                  <Label text="User:" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="user" prefHeight="19.0" prefWidth="70.0" text="Ruixiang" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <Label text="Session Time:" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Label>
+                  <Label text="Problem Solved:" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="time" text="00:00:00" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+            </GridPane>
+         </left>
+         <right>
+            <GridPane prefHeight="277.0" prefWidth="349.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="212.0" minWidth="10.0" prefWidth="212.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="174.0" minWidth="10.0" prefWidth="137.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="55.0" minHeight="7.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="134.0" minHeight="7.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="148.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="165.0" minHeight="10.0" prefHeight="24.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="183.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="198.0" minHeight="0.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="221.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="198.0" minHeight="10.0" prefHeight="117.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+                  <Label text="Problem Types:" />
+                  <CheckBox fx:id="computer" mnemonicParsing="false" onAction="#computerMode" text="Let computer decides for me" GridPane.rowIndex="1" />
+                  <CheckBox fx:id="forLoop" disable="true" mnemonicParsing="false" text="for loop" GridPane.rowIndex="2" />
+                  <CheckBox fx:id="whileLoop" disable="true" mnemonicParsing="false" text="while loop" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <CheckBox fx:id="ifStatement" disable="true" mnemonicParsing="false" text="if statement" GridPane.rowIndex="3" />
+                  <CheckBox fx:id="fCall" disable="true" mnemonicParsing="false" text="function call" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <CheckBox fx:id="recursion" disable="true" mnemonicParsing="false" text="recursion" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <CheckBox fx:id="inheritance" disable="true" mnemonicParsing="false" text="inheritance" GridPane.rowIndex="4" />
+                  <Label text="Code Complexity:" GridPane.rowIndex="5" />
+                  <Label text="Logic Complexity:" GridPane.rowIndex="6" />
+                  <ChoiceBox fx:id="codeComplexity" disable="true" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <ChoiceBox fx:id="logicComplexity" disable="true" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <ChoiceBox fx:id="mode" prefWidth="150.0" GridPane.rowIndex="8" />
+                  <ChoiceBox fx:id="sessionTime" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Label text="Session Time:" GridPane.rowIndex="7" />
+                  <Button mnemonicParsing="false" onAction="#sessionStart" text="Get Started!" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+            </GridPane>
+         </right>
+         <center>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+</AnchorPane>

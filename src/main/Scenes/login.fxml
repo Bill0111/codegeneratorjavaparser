@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Code.Controllers.loginController">
+      <Label layoutX="35.0" layoutY="34.0" prefHeight="41.0" prefWidth="77.0" text="Email:" />
+      <Label layoutX="27.0" layoutY="91.0" prefHeight="41.0" prefWidth="77.0" text="Password:" />
+      <Button defaultButton="true" layoutX="148.0" layoutY="154.0" mnemonicParsing="false" onAction="#clickLoginButton" style="-fx-background-color: gray;" text="Login">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextField fx:id="email" layoutX="112.0" layoutY="42.0" prefHeight="26.0" prefWidth="181.0" />
+      <TextField fx:id="password" layoutX="112.0" layoutY="98.0" prefHeight="26.0" prefWidth="181.0" />
+      <Label fx:id="warning" layoutX="35.0" layoutY="132.0" prefHeight="18.0" prefWidth="189.0" style="-fx-font-color: red;" />
+</AnchorPane>
