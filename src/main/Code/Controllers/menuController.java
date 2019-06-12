@@ -71,7 +71,8 @@ public class menuController {
 
         computer.setSelected(true);
 
-        user.setText(Context.getInstance().getUser().substring(0, Context.getInstance().getUser().length() - 10));
+        user.setText(Context
+                .getInstance().getUser().substring(0, Context.getInstance().getUser().length() - 10));
 
 
         start = System.currentTimeMillis();
@@ -124,6 +125,18 @@ public class menuController {
     @FXML
     private void sessionStart(ActionEvent event) throws Exception
     {
+        if(recursion.isSelected()) {
+            recursionsessionStart(event);
+        }
+        else {
+            normalsessionStart(event);
+        }
+
+
+    }
+
+    private void normalsessionStart(ActionEvent event) throws Exception
+    {
 
         Context.getInstance().setTime(sessionTime.getSelectionModel().getSelectedIndex()+1);
         Context.getInstance().setForLoop(forLoop.isSelected());
@@ -134,19 +147,29 @@ public class menuController {
 
 
         Stage stage = (Stage)((Node)event.getTarget()).getScene().getWindow();
-        Parent session = FXMLLoader.load(getClass().getResource("../../Scenes/session.fxml"));
+        Parent session = FXMLLoader.load(getClass().getResource("resources/session.fxml"));
         stage.setScene(new Scene(session));
         stage.setTitle("Practice Tool");
 
+    }
 
+    private void recursionsessionStart(ActionEvent event) throws Exception
+    {
 
+        Stage stage = (Stage)((Node)event.getTarget()).getScene().getWindow();
+        Parent session = FXMLLoader.load(getClass().getResource("resources/recursionMenu.fxml"));
+        stage.setScene(new Scene(session));
+        stage.setTitle("Recursion Algorithm Practice Tool");
 
     }
+
+
+
     @FXML
     private void logout(ActionEvent event) throws Exception
     {
         Stage stage = (Stage)((Node)event.getTarget()).getScene().getWindow();
-        Parent login = FXMLLoader.load(getClass().getResource("../../Scenes/login.fxml"));
+        Parent login = FXMLLoader.load(getClass().getResource("resources/login.fxml"));
         stage.setTitle("Code-Generator Tracing Practice Tool");
         stage.setScene(new Scene(login));
     }
@@ -155,7 +178,7 @@ public class menuController {
     private void loadSummary(ActionEvent event) throws Exception
     {
         Stage stage = (Stage)((Node)event.getTarget()).getScene().getWindow();
-        Parent summary = FXMLLoader.load(getClass().getResource("../../Scenes/summary.fxml"));
+        Parent summary = FXMLLoader.load(getClass().getResource("resources/summary.fxml"));
         stage.setScene(new Scene(summary));
         stage.setTitle("Summary");
     }

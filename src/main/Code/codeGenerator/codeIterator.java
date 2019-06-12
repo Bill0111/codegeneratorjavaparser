@@ -31,7 +31,7 @@ import java.util.function.BinaryOperator;
 public class codeIterator {
     private CompilationUnit cu;
     public codeIterator(ArrayList<String> loopType, int codeComplexity,int logicComplexity){
-        cu = generate(loopType,(int)(Math.random()*codeComplexity)+1,(int)(Math.random()*(logicComplexity+1)));
+        cu = generate(loopType,codeComplexity,logicComplexity);
 
     }
     public CompilationUnit getCu(){
@@ -356,6 +356,7 @@ public class codeIterator {
             public Visitable visit(ClassOrInterfaceDeclaration n, Void arg) {
 
                 BlockStmt start = JavaParser.parseBlock("{double result = 1.0;}");
+
                 for(int i=0;i<(int)(Math.random()*codeComplexity+1);i++)
                     start.addStatement((Statement) generatorANDrandomizer(loopname,codeComplexity,logicComplexity).getChildNodes().get(1));
 
@@ -367,6 +368,8 @@ public class codeIterator {
 
         return cu;
     }
+
+
 
 
 

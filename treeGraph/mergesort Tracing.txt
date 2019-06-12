@@ -1,0 +1,45 @@
+---------------------------------recursive loop 0 starts here -----------------------------
+Currently Merging : Left List : [ 27 ]	 Right List : [ 43 ]
+Merging Process: 
+1th element from list 1 has been sorted , current result list: [27]
+1th element from list 2 has been sorted , current result list: [27, 43]
+Merging Result : [ 27, 43 ]
+---------------------------------recursive loop 1 starts here -----------------------------
+Currently Merging : Left List : [ 38 ]	 Right List : [ 27, 43 ]
+Merging Process: 
+1th element from list 2 has been sorted , current result list: [27]
+1th element from list 1 has been sorted , current result list: [27, 38]
+2th element from list 2 has been sorted , current result list: [27, 38, 43]
+Merging Result : [ 27, 38, 43 ]
+---------------------------------recursive loop 2 starts here -----------------------------
+Currently Merging : Left List : [ 3 ]	 Right List : [ 9 ]
+Merging Process: 
+1th element from list 1 has been sorted , current result list: [3]
+1th element from list 2 has been sorted , current result list: [3, 9]
+Merging Result : [ 3, 9 ]
+---------------------------------recursive loop 3 starts here -----------------------------
+Currently Merging : Left List : [ 82 ]	 Right List : [ 10 ]
+Merging Process: 
+1th element from list 2 has been sorted , current result list: [10]
+1th element from list 1 has been sorted , current result list: [10, 82]
+Merging Result : [ 10, 82 ]
+---------------------------------recursive loop 4 starts here -----------------------------
+Currently Merging : Left List : [ 3, 9 ]	 Right List : [ 10, 82 ]
+Merging Process: 
+1th element from list 1 has been sorted , current result list: [3]
+2th element from list 1 has been sorted , current result list: [3, 9]
+1th element from list 2 has been sorted , current result list: [3, 9, 10]
+2th element from list 2 has been sorted , current result list: [3, 9, 10, 82]
+Merging Result : [ 3, 9, 10, 82 ]
+---------------------------------recursive loop 5 starts here -----------------------------
+Currently Merging : Left List : [ 27, 38, 43 ]	 Right List : [ 3, 9, 10, 82 ]
+Merging Process: 
+1th element from list 2 has been sorted , current result list: [3]
+2th element from list 2 has been sorted , current result list: [3, 9]
+3th element from list 2 has been sorted , current result list: [3, 9, 10]
+1th element from list 1 has been sorted , current result list: [3, 9, 10, 27]
+2th element from list 1 has been sorted , current result list: [3, 9, 10, 27, 38]
+3th element from list 1 has been sorted , current result list: [3, 9, 10, 27, 38, 43]
+4th element from list 2 has been sorted , current result list: [3, 9, 10, 27, 38, 43, 82]
+Merging Result : [ 3, 9, 10, 27, 38, 43, 82 ]
+[ 3, 9, 10, 27, 38, 43, 82 ]

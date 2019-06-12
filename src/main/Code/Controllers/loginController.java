@@ -26,7 +26,7 @@ public class loginController {
 
             Context.getInstance().setUser(email.getText());
             Stage stage = (Stage)((Node)event.getTarget()).getScene().getWindow();
-            Parent menu = FXMLLoader.load(getClass().getResource("../../Scenes/menu.fxml"));
+            Parent menu = FXMLLoader.load(getClass().getResource("resources/menu.fxml"));
             stage.setScene(new Scene(menu));
             stage.setTitle("Menu");
         }

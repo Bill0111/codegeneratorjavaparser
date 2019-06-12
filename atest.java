@@ -6,9 +6,9 @@ public class atest {
 
         double result = 1.0;
 
-        for (int i = 0; i <= 8; i += 2) {
+        for (int i = 0; i == 0; i--) {
 
-            result += 9;
+            result += 6;
 
         }
 

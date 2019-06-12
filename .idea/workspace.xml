@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="codegeneratorjavaparser" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c5704-843a-409f-af68-4ca6bdc6ca10" name="Default" comment="" />
+    <list default="true" id="821c5704-843a-409f-af68-4ca6bdc6ca10" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/codegeneratorjavaparser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jgrapht_jgrapht_core_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jheaps_jheaps_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jgrapht.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jgrapht_jgrapht_io_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JGraph/HelloJGraphT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/Controllers/RingingListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/Controllers/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/Controllers/recursionMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/Controllers/recursionSessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/Controllers/resources/recursionMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/Controllers/resources/recursionSession.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/Controllers/testwatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/codeGenerator/HelloJGraphT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Code/codeGenerator/graphDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treeGraph/DisplaySimpleTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treeGraph/mergesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atest.class" beforeDir="false" afterPath="$PROJECT_DIR$/atest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atest.java" beforeDir="false" afterPath="$PROJECT_DIR$/atest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegeneratorjavaparser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codegeneratorjavaparser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/Controllers/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/Controllers/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/Controllers/menuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/menuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/Controllers/summaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/summaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/codeGenerator/codeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/codeGenerator/codeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Code/codeGenerator/codeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/codeGenerator/codeIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scenes/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/resources/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scenes/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/resources/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scenes/session.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/resources/session.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scenes/summary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Code/Controllers/resources/summary.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/atest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/atest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourorganization/maven_sample/LogicPositivizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourorganization/maven_sample/forl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourorganization/maven_sample/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forloop1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forloop2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forloop3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/whileloop1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/whileloop2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/whileloop3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/Controllers/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/Controllers/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/Controllers/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/Controllers/loginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/Controllers/menuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/Controllers/menuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/Controllers/sessionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/Controllers/sessionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/Controllers/summaryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/Controllers/summaryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/codeGenerator/codeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/codeGenerator/codeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/codeGenerator/codeIterator$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/codeGenerator/codeIterator$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Code/codeGenerator/codeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Code/codeGenerator/codeIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scenes/login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scenes/menu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scenes/session.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scenes/summary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/forloop1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/forloop2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/forloop3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/whileloop1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/whileloop2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/whileloop3.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,10 +86,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+      <file leaf-file-name="HelloJGraphT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/HelloJGraphT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/resources/login.fxml">
+          <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="confirmBox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/confirmBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/loginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menuController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/menuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4095">
+              <caret line="305" column="33" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graphDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/graphDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codeIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/codeIterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,8 +190,91 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Java" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>firm</find>
+      <find>hint</find>
+      <find>confir</find>
+      <find>*</find>
+      <find>&gt;</find>
+      <find>testL</find>
+      <find>lineNum</find>
+      <find>start</find>
+      <find>testlineNum</find>
+      <find>getTrace</find>
+      <find>label</find>
+      <find>testline</find>
+      <find>Contro</find>
+      <find>init</find>
+      <find>Context</find>
+      <find>session</find>
+      <find>test</find>
+      <find>context</find>
+      <find>codeCom</find>
+      <find>codeBox</find>
+      <find>Textfield</find>
+      <find>answer</find>
+      <find>insert</find>
+      <find>Merge</find>
+      <find>graph</find>
+      <find>junit</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/out/artifacts</dir>
+      <dir>$PROJECT_DIR$/src/main/Resources</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/Code/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/testwatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/RingingListener.java" />
+        <option value="$PROJECT_DIR$/src/main/Scenes/session.fxml" />
+        <option value="$PROJECT_DIR$/src/main/Scenes/hint.fxml" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/hintbox.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/codeGenerator/codeIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/codeGenerator/codeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java" />
+        <option value="$PROJECT_DIR$/src/main/Scenes/summary.fxml" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/menuController.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/recursionMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/Scenes/recursionMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/summaryController.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/recursionMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/recursionSessionController.java" />
+        <option value="$PROJECT_DIR$/mergesort.java" />
+        <option value="$PROJECT_DIR$/JPanelTest.java" />
+        <option value="$PROJECT_DIR$/SwingJPanelDemo.java" />
+        <option value="$PROJECT_DIR$/word.txt" />
+        <option value="$PROJECT_DIR$/DisplaySimpleTree.java" />
+        <option value="$PROJECT_DIR$/src/main/Scenes/recursionSession.fxml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/JGraph/HelloJGraphT.java" />
+        <option value="$PROJECT_DIR$/HelloJGraphT.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/codeGenerator/graphDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/codeGenerator/HelloJGraphT.java" />
+        <option value="$PROJECT_DIR$/src/main/Code/Controllers/loginController.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -35,13 +282,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="796" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -81,7 +337,49 @@
               <item name="codegeneratorjavaparser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Scenes" type="462c0819:PsiDirectoryNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="codeGenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegeneratorjavaparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegeneratorjavaparser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegeneratorjavaparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegeneratorjavaparser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegeneratorjavaparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegeneratorjavaparser" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegeneratorjavaparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegeneratorjavaparser" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegeneratorjavaparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegeneratorjavaparser" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codegeneratorjavaparser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codegeneratorjavaparser" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -90,14 +388,32 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Context&#9;PSI&#9;JAVA://Code.Controllers.Context&#10;codeIterator&#9;PSI&#9;JAVA://Code.codeGenerator.codeIterator" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37295082" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Code.Controllers" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Code.Controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/Code" />
+      <recent name="$PROJECT_DIR$/src/main/Code/codeGenerator" />
+      <recent name="$PROJECT_DIR$/treeGraph" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,7 +427,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="HelloJGraphT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code.codeGenerator.HelloJGraphT" />
+      <module name="codegeneratorjavaparser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Code.codeGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Code.Main" />
       <module name="codegeneratorjavaparser" />
@@ -119,6 +446,62 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="codeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code.codeGenerator.codeGenerator" />
+      <module name="codegeneratorjavaparser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Code.codeGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="graphDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code.codeGenerator.graphDemo" />
+      <module name="codegeneratorjavaparser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Code.codeGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="hintbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code.Controllers.hintbox" />
+      <module name="codegeneratorjavaparser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Code.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codegeneratorjavaparser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Code.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Code.Controllers" />
+      <option name="MAIN_CLASS_NAME" value="Code.Controllers.TimeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -158,6 +541,23 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TimeTest" />
+      <item itemvalue="Application.hintbox" />
+      <item itemvalue="Application.codeGenerator" />
+      <item itemvalue="Application.HelloJGraphT" />
+      <item itemvalue="Application.graphDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloJGraphT" />
+        <item itemvalue="Application.graphDemo" />
+        <item itemvalue="Application.codeGenerator" />
+        <item itemvalue="Application.hintbox" />
+        <item itemvalue="JUnit.TimeTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -171,30 +571,57 @@
       <updated>1548208253689</updated>
       <workItem from="1548208255019" duration="467000" />
       <workItem from="1548209856972" duration="109000" />
+      <workItem from="1548256510946" duration="16000" />
+      <workItem from="1548265589823" duration="26000" />
+      <workItem from="1548439601914" duration="805000" />
+      <workItem from="1548442721376" duration="144000" />
+      <workItem from="1548443030953" duration="1031000" />
+      <workItem from="1548476277222" duration="1340000" />
+      <workItem from="1548478857022" duration="1110000" />
+      <workItem from="1549050311626" duration="375000" />
+      <workItem from="1549590130268" duration="1363000" />
+      <workItem from="1549591999927" duration="585000" />
+      <workItem from="1551399127306" duration="15844000" />
+      <workItem from="1551469042485" duration="1278000" />
+      <workItem from="1551474740251" duration="1100000" />
+      <workItem from="1553805506899" duration="3098000" />
+      <workItem from="1553887889966" duration="250000" />
+      <workItem from="1553889663581" duration="3521000" />
+      <workItem from="1554947290646" duration="5398000" />
+      <workItem from="1555014238390" duration="8784000" />
+      <workItem from="1556001908458" duration="4000" />
+      <workItem from="1556294882115" duration="4778000" />
+      <workItem from="1559152769526" duration="5135000" />
+      <workItem from="1559228805983" duration="419000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TimeTest - 2019.02.07 at 21h 16m 06s.xml">
+      <configuration name="TimeTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576000" />
+    <option name="totallyTimeSpent" value="56980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="796" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.2678788" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.048640914" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32904148" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.20363636" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5987879" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -208,7 +635,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,22 +643,315 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="238" column="39" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/codeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="238" column="39" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/codeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="238" column="39" selection-start-line="238" selection-start-column="39" selection-end-line="238" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/atest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/atest.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Scenes/hint.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/hintbox.java" />
+    <entry file="file://$PROJECT_DIR$/atestp.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atestp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atest.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/RingingListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/testwatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/resources/menu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1461" />
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/resources/summary.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="68" selection-end-line="54" selection-end-column="68" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/summaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/resources/recursionMenu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="141" selection-start-line="7" selection-start-column="141" selection-end-line="7" selection-end-column="181" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/resources/session.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treeGraph/mergesort Tracing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treeGraph/mergesort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treeGraph/DisplaySimpleTree.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treeGraph/MyTree.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/resources/recursionSession.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="97" lean-forward="true" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/recursionSessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/recursionMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treeGraph/DisplaySimpleTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3165">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codegeneratorjavaparser.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JGraph/HelloJGraphT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2535">
+          <caret line="186" column="3" selection-start-line="21" selection-start-column="2" selection-end-line="186" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/codeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/codeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Code/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/graphDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="315">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/codeGenerator/HelloJGraphT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/resources/login.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/confirmBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/menuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Code/Controllers/sessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4095">
+          <caret line="305" column="33" selection-start-line="305" selection-start-column="28" selection-end-line="305" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -242,10 +961,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>codegeneratorjavaparser</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37295082" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -257,7 +978,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37295082" />
               </list>
             </option>
           </splitter-proportions>
@@ -268,7 +989,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37295082" />
               </list>
             </option>
           </splitter-proportions>
@@ -280,7 +1001,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37295082" />
               </list>
             </option>
           </splitter-proportions>
@@ -292,8 +1013,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.37295082" />
               </list>
             </option>
           </splitter-proportions>
@@ -313,11 +1033,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.github.javaparser:javaparser-core:3.8.0</last-edited>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37295082" />
               </list>
             </option>
           </splitter-proportions>

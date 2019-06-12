@@ -20,7 +20,7 @@ public class Main extends Application {
 
     private void loadLogin() throws Exception
     {
-        Parent login = FXMLLoader.load(getClass().getResource("../Scenes/login.fxml"));
+        Parent login = FXMLLoader.load(getClass().getResource("Controllers/resources/login.fxml"));
         primaryStage.setScene(new Scene(login));
     }
 
@@ -28,6 +28,7 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+    
 }
 
 

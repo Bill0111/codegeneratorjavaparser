@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="codegeneratorjavaparser.jnlp">
+  <information>
+    <title>codegeneratorjavaparser</title>
+    <vendor>Unknown</vendor>
+    <description>codegeneratorjavaparser</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="codegeneratorjavaparser.jar" size="50601" download="eager" />
+    <jar href="hamcrest-core-1.3.jar" size="45024" download="eager" />
+    <jar href="javaparser-core-3.8.0.jar" size="1137705" download="eager" />
+    <jar href="junit-4.12.jar" size="314932" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="Code.Main"  name="codegeneratorjavaparser" />
+  <update check="background"/>
+</jnlp>

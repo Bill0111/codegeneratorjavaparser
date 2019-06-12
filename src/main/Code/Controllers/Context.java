@@ -32,6 +32,10 @@ class Context {
     void setCodeComplexity(int codeComplexity){this.codeComplexity = codeComplexity;}
     int getCodeComplexity(){return codeComplexity;}
 
+    private String recursionMethod;
+    void setRecursionMethod(String recursionMethod){this.recursionMethod= recursionMethod;}
+    String getRecursionMethod(){return recursionMethod;}
+
     private int logicComplexity;
     void setLogicComplexity(int logicComplexity){this.logicComplexity = logicComplexity;}
     int getLogicComplexity(){return logicComplexity;}
@@ -43,6 +47,14 @@ class Context {
     private boolean whileLoop;
     void setWhileLoop(boolean whileLoop){this.whileLoop = whileLoop;}
     boolean getWhileLoop() {return whileLoop; }
+
+    private int questionsAnswered = 0;
+    void setQuestionsAnswered(int questionsAnswered){this.questionsAnswered += questionsAnswered;}
+    int getQuestionsAnswered() {return questionsAnswered;}
+
+    private int numCorrect = 0;
+    void setNumCorrect(int numCorrect){this.numCorrect += numCorrect;}
+    int getNumCorrect() {return numCorrect;}
 
 
 
